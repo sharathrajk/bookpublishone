@@ -2,9 +2,6 @@ var mongoose = require('mongoose');
 var config = require('../config/database');
 
 
-
-
-
 //user Schema
 var BookSchema = mongoose.Schema({
   title:{type: String, required:true },
